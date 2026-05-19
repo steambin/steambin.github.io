@@ -1,0 +1,393 @@
+<html lang="zh-CN"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="SteamBin" content="Steam库管理器-免费入库工具，畅玩正版游戏，拥有100000+款Steam游戏、批量管理、游戏更新、锁区游戏、D加密游戏、云存档、全DLC、创意工坊、多人联机。">
+    <meta name="description" content="Steam库管理器，Steam入库工具，正版下载，批量管理，锁区游戏，全DLC，游戏更新，D加密游戏，云存档，游戏入库，创意工坊，多人联机。">
+    <title>SteamBin库管理器-入库工具</title>
+     <link rel="icon" href="/loog.ico">
+     <script type="a602209c0f83c2fadfd112c5-module" crossorigin="" src="css\detector.js"></script>
+    <!-- 引入独立CSS文件 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script src="https://tjv2.steamstart.top/track.js?token=3ec8e6c091ce4deabfa6a2ba1af01f6e"></script>
+    <!-- 顶部导航栏 - 固定定位 + 毛玻璃效果 -->
+    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo 区域 -->
+                <div class="flex items-center">
+                    <a class="flex-shrink-0 flex items-center gap-2 hover:opacity-80 transition-opacity" href="/" data-discover="true">
+                        <div class="text-purple-500" style="transform: none;">
+                           <img src="/images/loog.png" width="32" height="32" alt="Games Icon" aria-hidden="false" style="object-fit: contain;" class="rotate-on-hover">
+                        </div>
+                        <span class="font-bold text-xl tracking-tight text-white">SteamBin</span>
+                    </a>
+                    <!-- 桌面端导航菜单 -->
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a class="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors" href="/" data-discover="true">主页</a>
+                            <a href="https://steamui.com/" target="_blank" class="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1">
+                              游戏查询
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14 21 3"></path>
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                </svg>
+                                <a class="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors" href="/steam" data-discover="true">安装 Steam</a>
+                                <a href="https://steamdb.info/" target="_blank" class="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1">
+                                  Steam DB
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                                <a href="https://store.steampowered.com/" target="_blank" class="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1">
+                                  Steam 官网
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                            </a>
+                            <a href="https://qm.qq.com/q/NOEuemlV6M" target="_blank" class="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1">
+                                售前咨询
+                               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square" aria-hidden="true">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 桌面端右侧按钮 -->
+                <div class="hidden md:flex items-center gap-4"> 
+                    <a class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-lg shadow-purple-500/20" href="/download" data-discover="true">立即获取</a>
+                </div>
+
+            </div>
+        </div>
+    </nav><style>
+  /* 定义从上到下渐入的动画 */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* 动画基础样式 */
+  .animate-fadeInUp {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  /* 功能卡片逐个出现的延迟变量控制 */
+  .feature-card {
+    animation-delay: calc(0s + var(--card-index) * 0.10s);
+  }
+</style>
+<script type="a602209c0f83c2fadfd112c5-module" crossorigin="" src="css\detector.js"></script>
+<main class="flex-grow">
+  <div class="bg-slate-900 text-white selection:bg-purple-500 selection:text-white">
+    <!-- 英雄区 - 最先出现 -->
+    <div class="relative overflow-hidden bg-slate-900 pt-32 pb-12 sm:pt-40 sm:pb-16 animate-fadeInUp" style="animation-delay: 0s;">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
+        <!-- 版本标签 -->
+        <div class="inline-flex items-center rounded-full border border-purple-500/30 bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-300 mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles mr-2" aria-hidden="true">
+            <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path>
+            <path d="M20 2v4"></path>
+            <path d="M22 4h-4"></path>
+            <circle cx="4" cy="20" r="2"></circle>
+          </svg>
+          <span>一键添加游戏到你的Steam库</span>
+        </div>
+
+        <!-- 主标题 -->
+        <h1 class="text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 sm:text-6xl lg:text-7xl max-w-5xl">
+          Steam库管理器
+        </h1>
+
+        <!-- 副标题 -->
+        <p class="mt-6 text-xl text-slate-300 max-w-3xl">
+          畅玩正版游戏，拥有100000+款Steam游戏，批量管理，游戏更新，锁区游戏、D加密游戏、云存档、全DLC、创意工坊、多人联机
+        </p>
+
+        <!-- 按钮组 -->
+        <div class="mt-10 flex gap-4 flex-col sm:flex-row">
+          <a class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg shadow-lg shadow-purple-500/20 text-white bg-purple-600 hover:bg-purple-700 transition-all hover:scale-105" href="/download" data-discover="true">
+            立即获取
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2" aria-hidden="true">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+            <a href="https://qm.qq.com/q/NOEuemlV6M" target="_blank" class="inline-flex items-center justify-center px-8 py-3 border border-slate-700 text-base font-medium rounded-lg text-slate-300 bg-slate-800 hover:bg-slate-700 transition-all hover:border-slate-500">
+              加入我们</a>
+          </a>
+          <a></a>
+        </div>
+      </div>
+    </div>
+    <!-- 功能特点区 - 延迟出现 -->
+    <div id="features" class="pt-12 pb-24 bg-slate-900 relative overflow-hidden animate-fadeInUp" style="animation-delay: 0s;">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl leading-8 font-extrabold tracking-tight text-purple-400 sm:text-4xl mb-2">功能介绍</h2>
+          <p class="text-sm font-medium text-slate-400 tracking-wide uppercase">它能增强您的游戏体验</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- 功能卡片 1 -->
+          <div class="relative p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 group hover:-translate-y-2 feature-card animate-fadeInUp" style="--card-index: 1;">
+            <div class="absolute top-8 left-8 bg-purple-500/10 rounded-xl p-3 group-hover:bg-purple-500/20 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download h-8 w-8 text-purple-400" aria-hidden="true">
+                <path d="M12 15V3"></path>
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <path d="m7 10 5 5 5-5"></path>
+              </svg>
+            </div>
+            <div class="mt-20">
+              <h3 class="text-xl font-bold text-white mb-3">游戏下载</h3>
+              <p class="text-base text-slate-400 leading-relaxed">
+                Steam官方服务器下载、更新游戏，管理您的游戏更新，使用Steam游戏更新享有不限速下载。（正版一样的下载方式）
+              </p>
+            </div>
+          </div>
+
+          <!-- 功能卡片 2 -->
+          <div class="relative p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 group hover:-translate-y-2 feature-card animate-fadeInUp" style="--card-index: 2;">
+            <div class="absolute top-8 left-8 bg-purple-500/10 rounded-xl p-3 group-hover:bg-purple-500/20 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad2 lucide-gamepad-2 h-8 w-8 text-purple-400" aria-hidden="true">
+                <line x1="6" x2="10" y1="11" y2="11"></line>
+                <line x1="8" x2="8" y1="9" y2="13"></line>
+                <line x1="15" x2="15.01" y1="12" y2="12"></line>
+                <line x1="18" x2="18.01" y1="10" y2="10"></line>
+                <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path>
+              </svg>
+            </div>
+            <div class="mt-20">
+              <h3 class="text-xl font-bold text-white mb-3">功能支持</h3>
+              <p class="text-base text-slate-400 leading-relaxed">
+                支持D加密授权游戏，多人联机、云存档、创意工坊、成就系统，单机存档和单机修改器、全DLC（直接升级为豪华版）
+              </p>
+            </div>
+          </div>
+
+          <!-- 功能卡片 3 -->
+          <div class="relative p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 group hover:-translate-y-2 feature-card animate-fadeInUp" style="--card-index: 3;">
+            <div class="absolute top-8 left-8 bg-purple-500/10 rounded-xl p-3 group-hover:bg-purple-500/20 transition-colors">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-id-card h-8 w-8 text-purple-400" aria-hidden="true">
+              <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+              <path d="M10 9h4"></path>
+              <path d="M7 12h10"></path>
+              <path d="M15 16h-6"></path>
+              <path d="M12 7v2"></path>
+            </svg>
+            </div>
+            <div class="mt-20">
+              <h3 class="text-xl font-bold text-white mb-3">远程服务</h3>
+              <p class="text-base text-slate-400 leading-relaxed">
+                提供（免费远程服务），一对一客服解决您在使用中遇到的问题，帮助您快速定位游戏中的疑难杂症。
+              </p>
+            </div>
+          </div>
+          <!-- 功能卡片 4 -->
+          <div class="relative p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 group hover:-translate-y-2 feature-card animate-fadeInUp" style="--card-index: 4;">
+            <div class="absolute top-8 left-8 bg-purple-500/10 rounded-xl p-3 group-hover:bg-purple-500/20 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock h-8 w-8 text-purple-400" aria-hidden="true">
+              <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            </div>
+            <div class="mt-20">
+              <h3 class="text-xl font-bold text-white mb-3">安全放心</h3>
+              <p class="text-base text-slate-400 leading-relaxed">
+                最新技术，不会导致封号，无任何后门，本地运行，确保您的账户安全无忧，多年服务经验，零封号记录。
+              </p>
+            </div>
+          </div>
+
+          <!-- 功能卡片 5 -->
+          <div class="relative p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 group hover:-translate-y-2 feature-card animate-fadeInUp" style="--card-index: 5;">
+            <div class="absolute top-8 left-8 bg-purple-500/10 rounded-xl p-3 group-hover:bg-purple-500/20 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock h-8 w-8 text-purple-400" aria-hidden="true">
+              <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            </div>
+            <div class="mt-20">
+              <h3 class="text-xl font-bold text-white mb-3">海量游戏库</h3>
+              <p class="text-base text-slate-400 leading-relaxed">
+               支持100000+款游戏供您选择，超多类型游戏，几乎涵盖所有你想玩的Steam游戏，每日增加新游戏。
+              </p>
+            </div>
+          </div>
+
+          <!-- 功能卡片 6 -->
+          <div class="relative p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 group hover:-translate-y-2 feature-card animate-fadeInUp" style="--card-index: 6;">
+            <div class="absolute top-8 left-8 bg-purple-500/10 rounded-xl p-3 group-hover:bg-purple-500/20 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock h-8 w-8 text-purple-400" aria-hidden="true">
+              <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            </div>
+            <div class="mt-20">
+              <h3 class="text-xl font-bold text-white mb-3">用户隐私保护</h3>
+              <p class="text-base text-slate-400 leading-relaxed">
+                该工具的所有操作都在您的本地设备完成，不会收集、存储、泄露您的任何账户信息。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 特性亮点区 - 延迟出现 -->
+    <div class="py-24 bg-slate-900 animate-fadeInUp" style="animation-delay: 0.3s;">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          
+          <!-- 亮点 1 -->
+          <div class="flex flex-col items-center text-center group">
+            <div class="p-4 bg-slate-800 rounded-2xl mb-6 group-hover:bg-purple-500/10 transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ruler text-slate-400 group-hover:text-purple-400 transition-colors duration-300" aria-hidden="true">
+                <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z"></path>
+                <path d="m14.5 12.5 2-2"></path>
+                <path d="m11.5 9.5 2-2"></path>
+                <path d="m8.5 6.5 2-2"></path>
+                <path d="m17.5 15.5 2-2"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">独立开发</h3>
+            <p class="text-slate-400">完全自主研发部署</p>
+          </div>
+
+          <!-- 亮点 2 -->
+          <div class="flex flex-col items-center text-center group">
+            <div class="p-4 bg-slate-800 rounded-2xl mb-6 group-hover:bg-purple-500/10 transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor text-slate-400 group-hover:text-purple-400 transition-colors duration-300" aria-hidden="true">
+                <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                <line x1="8" x2="16" y1="21" y2="21"></line>
+                <line x1="12" x2="12" y1="17" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">持续更新</h3>
+            <p class="text-slate-400">每日持续更新维护</p>
+          </div>
+
+          <!-- 亮点 3 -->
+          <div class="flex flex-col items-center text-center group">
+            <div class="p-4 bg-slate-800 rounded-2xl mb-6 group-hover:bg-purple-500/10 transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-megaphone text-slate-400 group-hover:text-purple-400 transition-colors duration-300" aria-hidden="true">
+                <path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                <path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14"></path>
+                <path d="M8 6v8"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">售后问题</h3>
+            <p class="text-slate-400">千人售后交流群</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 行动召唤区 - 最后出现 -->
+    <div class="py-24 bg-slate-900 relative animate-fadeInUp" style="animation-delay: 1.1s;">
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-900 to-purple-900/20 pointer-events-none"></div>
+      <div class="container mx-auto px-4 text-center relative z-10">
+        <h2 class="text-4xl font-bold text-white mb-6">开始体验 Steam库管理器</h2>
+        <p class="text-xl text-slate-400 mb-10">点击下方按钮，马上开始体验</p>
+        <div class="flex justify-center">
+          <a class="group bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-full py-4 px-10 shadow-lg shadow-purple-500/20 transition-all hover:scale-105 hover:shadow-purple-500/40 flex items-center" href="/download" data-discover="true">
+            立即体验
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 group-hover:translate-x-1 transition-transform" aria-hidden="true">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>  
+</main>
+
+<footer class="bg-slate-900 border-t border-slate-800 pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- 页脚主体内容 -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      <!-- 品牌信息 -->
+      <div class="col-span-1 md:col-span-1">
+        <div class="flex items-center mb-6">
+ <img src="/images/loog.png" width="32" height="32" alt="Games Icon" aria-hidden="false" style="object-fit: contain;" class="rotate-on-hover">
+          <span class="ml-2 text-xl font-bold text-white">SteamBin</span>
+        </div>
+        <p class="text-sm text-slate-400 leading-relaxed">
+          通过SteamBin库管理器来获取游戏授权，它能增强您的 Steam 游戏体验，让您畅玩游戏并解锁全DLC。
+        </p>
+      </div>
+
+      <!-- 资源链接 -->
+      <div>
+        <h3 class="text-sm font-bold text-white tracking-wider uppercase mb-4">Resources</h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="https://github.com/steambin/steambin.github.io" target="_blank" class="text-sm text-slate-400 hover:text-purple-400 transition-colors">
+              SteamBin仓库
+            </a>
+          </li>
+          
+         
+        </ul>
+      </div>
+
+      <!-- 社区链接 -->
+      <div>
+        <h3 class="text-sm font-bold text-white tracking-wider uppercase mb-4">Community</h3>
+        <ul class="space-y-3">
+         
+        </ul>
+      </div>
+
+      <!-- 社交链接 -->
+      <div>
+        <h3 class="text-sm font-bold text-white tracking-wider uppercase mb-4">Connect</h3>
+        <div class="flex space-x-4">
+          <!-- GitHub -->
+          <a href="#" class="text-slate-400 hover:text-white transition-colors bg-slate-800 p-2 rounded-full hover:bg-purple-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github" aria-hidden="true">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+          </a>
+          
+          <!-- Twitter -->
+          <a href="#" class="text-slate-400 hover:text-white transition-colors bg-slate-800 p-2 rounded-full hover:bg-purple-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter" aria-hidden="true">
+              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+            </svg>
+          </a>
+          
+          <!-- LinkedIn -->
+          <a href="#" class="text-slate-400 hover:text-white transition-colors bg-slate-800 p-2 rounded-full hover:bg-purple-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 版权信息 -->
+    <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm text-slate-500">Copyright © 2026 SteamBin All rights reserved.</p>
+    
+    </div>
+  </div>
+</footer></body></html>
