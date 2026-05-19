@@ -1,1 +1,1 @@
-SteamBin丨SteamBin.com 一键入库工具 官网 steambin.github.io 本工具可以将游戏一键添加到你的Steam库中，并且直接下载游玩。 目前游戏库数量100000+，与官方版本同步更新，使用Steam官方云存档，支持创意工坊，以及游玩D加密游戏。
+Steam库管理器-免费入库工具，畅玩正版游戏，拥有100000+款Steam游戏、批量管理、游戏更新、锁区游戏、D加密游戏、云存档、全DLC、创意工坊、多人联机。SteamBin.com丨Steam库管理器 官网：steambin.github.io
